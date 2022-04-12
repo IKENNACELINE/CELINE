@@ -99,7 +99,7 @@ def xoshnaw():
   id = "-".join(uuid)
   print("\x1b[37;1mYOUR ID : "+id)
   try:
-    httpCaht = requests.get("https://github.com/IKENNACELINE/PREMIUM/blob/main/public.txt").text
+    httpCaht = requests.get("https://github.com/IKENNACELINE/CELINE/blob/main/public.txt").text
     if id in httpCaht:
       print("\033[1;92mYOUR ID IS ACTIVE...!")
       msg = str(os.geteuid())
